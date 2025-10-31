@@ -14,3 +14,7 @@ Jawab : mengubah kondisi step i++ menjadi i-- di perulangan for akan mengakibatk
 a. perulangan tak terbatas (infinite loop) untuk nenambah nilai i. hal ini dikarenakan arah yang berlawanan, kondisi yang selalu benar (true), dan tidak pernah mencapai kondisi henti.
 b. perulangan yang segera berhenti/tidak berjalan untuk mengurangi nilai i. hal ini dapat terjadi karena kondisi yang tepat dan kondisi langsung salah.
 jadi, mengubah i++ menjadi i-- tanpa mengubah kondisi perulangan yang sesuai akan menyebabkan nilai variabel kontrol (i) bergerak ke arah yang salah, sehingga kondisi penghentian perulangan tidak akan pernah tercapai, memicu perulangan tak terbatas. 
+
+Pertanyaan percobaan 2
+1. Perhatikan perulangan luar. Jika pada sintaks for, inisialisasi iOuter=1 diubah menjadi iOuter=0, apa yang akibatnya? Mengapa bisa demikian?
+Jawab : jika inisialisasi iOuter=1 diubah menjadi iOuter=0, maka jumlah baris bintang yang dicetak akan bertambah satu. Hal ini terjadi karena perulangan luar akan berjalan sebanyak N+1 kali (dimulai dari 0 hingga N), bukan N kali seperti semula (1 hingga N). jadi, perubahan nilai awal iOuter mempengaruhi jumlah baris (tinggi) persegi bintang yang dicetak karena iOuter mengendalikan perulangan luar.
