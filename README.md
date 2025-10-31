@@ -9,3 +9,8 @@ Jawab : jika pada perulangan for, kondisi i<=N diubah menjadi i>N akan mengakiba
   (1) evaluasi kondisi awal. ketika perulangan for dimulai, kondisi (i>N) segera dievaluasi.
   (2) Kondisi langsung salah (false). biasanya nilai i tidak lebih besar dari N.
   (3) penghentian perulangan. perulangan for akan terus bejalan jika kondisinya true, namun jika kondisinya false akan berhenti.
+3. Jika pada perulangan for, kondisi step i++ diubah menjadi i-- apa akibatnya? Mengapa bisa demikian?
+Jawab : mengubah kondisi step i++ menjadi i-- di perulangan for akan mengakibatkan 2 hal berdasarkan kondisinya, yaitu:
+a. perulangan tak terbatas (infinite loop) untuk nenambah nilai i. hal ini dikarenakan arah yang berlawanan, kondisi yang selalu benar (true), dan tidak pernah mencapai kondisi henti.
+b. perulangan yang segera berhenti/tidak berjalan untuk mengurangi nilai i. hal ini dapat terjadi karena kondisi yang tepat dan kondisi langsung salah.
+jadi, mengubah i++ menjadi i-- tanpa mengubah kondisi perulangan yang sesuai akan menyebabkan nilai variabel kontrol (i) bergerak ke arah yang salah, sehingga kondisi penghentian perulangan tidak akan pernah tercapai, memicu perulangan tak terbatas. 
