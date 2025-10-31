@@ -28,3 +28,12 @@ jadi, perulangan luar untuk baris dan perulangan dalam untuk kolom (isi baris).
 4. Mengapa perlu ditambahkan sintaks System.out.println(); di bawah perulangan dalam? Apa akibatnya jika sintaks tersebut dihilangkan?
 Jawab : sintaks System.out.println(); perlu ditambahkan di bawah perulangan dalam karena berfungsi untuk memindahkan kursor ke baris baru setelah satu baris bintang selesai dicetak. jika perintah ini dihapus, maka seluruh bintang akan dicetak dalam satu baris panjang tanpa pindah ke baris berikutnya.
 5. Silakan commit dan push ke repository Anda.
+
+Pertanyaan percobaan 3
+1. Perhatikan, apakah output yang dihasilkan dengan nilai N=5 sesuai dengan tampilan berikut?
+*
+**
+***
+****
+*****
+Jawab : program tersebut tidak menghasilkan pola segitiga seperti yang diinginkan. semua bintang dicetak dalam satu baris panjang, tanpa berpindah ke baris berikutnya.
