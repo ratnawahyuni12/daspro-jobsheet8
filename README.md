@@ -37,3 +37,15 @@ Pertanyaan percobaan 3
 ****
 *****
 Jawab : program tersebut tidak menghasilkan pola segitiga seperti yang diinginkan. semua bintang dicetak dalam satu baris panjang, tanpa berpindah ke baris berikutnya.
+2. Jika tidak sesuai, bagian mana saja yang harus diperbaiki/ditambahkan? Jelaskan setiap bagian yang perlu diperbaiki/ditambahkan.
+Jawab : berikut bagian yang diperbaiki/ditambahkan:
+- nilai inisialisasi perulangan luar dan perulangan dalam. hal ini dilakukan untuk menambahkan atau memunculkan bintang (dari muncul satu, lalu dua dan berikutnya).
+pada kode awal:
+int i = 0;
+int j = 0;
+perbaikan:
+int i = 1;
+int j = 1;
+- mengubah j < i menjadi j <= i. hal ini dilakukan untuk memastikan jumlah iterasi sesuai dengan jumlah elemen (bintang) yang ingin ditampilkan.
+- menambahkan System.out.printl();. hal ini dilakukan untuk pindah baris setelah perulangan dalam selesai.
+3. Silakan commit dan push ke repository Anda.
