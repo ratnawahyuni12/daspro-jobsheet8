@@ -20,3 +20,8 @@ Pertanyaan percobaan 2
 Jawab : jika inisialisasi iOuter=1 diubah menjadi iOuter=0, maka jumlah baris bintang yang dicetak akan bertambah satu. Hal ini terjadi karena perulangan luar akan berjalan sebanyak N+1 kali (dimulai dari 0 hingga N), bukan N kali seperti semula (1 hingga N). jadi, perubahan nilai awal iOuter mempengaruhi jumlah baris (tinggi) persegi bintang yang dicetak karena iOuter mengendalikan perulangan luar.
 2. Kembalikan program semula dimana inisialisasi iOuter=1. Kemudian perhatikan perulangan dalam, Jika pada sintaks for, inisialisasi i=1 diubah menjadi i=0, apa yang akibatnya? Mengapa bisa demikian?
 Jawab : jika inisialisasi i diubah menjadi 0, maka jumlah bintang per baris akan bertambah satu. perulangan dalam akan berjalan N+1 kali (dimulai dari 0 hingga N), bukan N kali (1 hingga N).
+3. Jadi, apakah perbedaan kegunaan antara perulangan luar dengan perulangan yang berada di dalamnya?
+Jawab : berikut perbedaan kegunaan antara perulangan luar dan perulangan di dalamnya:
+- perulangan luar (iOuter) berfungsi untuk mengatur jumlah baris yang akan di cetak. setiap kali perulangan luar berjalan satu kali, program mencetak satu baris penuh bintang.
+- perulangan dalam (i) berfungsi untuk mengatur jumlah bintang dalam satu baris (jumlah kolom). setiap kali perulangan dalam selesai, barulah program pindah ke baris berikutnya.
+jadi, perulangan luar untuk baris dan perulangan dalam untuk kolom (isi baris).
