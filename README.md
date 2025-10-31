@@ -25,3 +25,6 @@ Jawab : berikut perbedaan kegunaan antara perulangan luar dan perulangan di dala
 - perulangan luar (iOuter) berfungsi untuk mengatur jumlah baris yang akan di cetak. setiap kali perulangan luar berjalan satu kali, program mencetak satu baris penuh bintang.
 - perulangan dalam (i) berfungsi untuk mengatur jumlah bintang dalam satu baris (jumlah kolom). setiap kali perulangan dalam selesai, barulah program pindah ke baris berikutnya.
 jadi, perulangan luar untuk baris dan perulangan dalam untuk kolom (isi baris).
+4. Mengapa perlu ditambahkan sintaks System.out.println(); di bawah perulangan dalam? Apa akibatnya jika sintaks tersebut dihilangkan?
+Jawab : sintaks System.out.println(); perlu ditambahkan di bawah perulangan dalam karena berfungsi untuk memindahkan kursor ke baris baru setelah satu baris bintang selesai dicetak. jika perintah ini dihapus, maka seluruh bintang akan dicetak dalam satu baris panjang tanpa pindah ke baris berikutnya.
+5. Silakan commit dan push ke repository Anda.
